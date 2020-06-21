@@ -1,0 +1,3 @@
+[submodule "Freezer"]
+	path = Freezer
+	url = https://github.com/mad-penguins/Freezer.git
