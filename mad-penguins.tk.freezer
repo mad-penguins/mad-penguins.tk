@@ -1,0 +1,32 @@
+[Project]
+Name = mad-penguins.tk
+
+[Build]
+DIR = build
+
+[Source]
+DIR = src
+
+[Static]
+DIR = static
+
+[Snowflakes *.html]
+DIR = snow
+bootstrap.scripts = bootstrap.scripts.html
+carousel = carousel.html
+footer = footer.html
+head = head.html
+header = header.html
+main = main.html
+
+[Snowflakes *.py]
+DIR = py
+year = year.py
+
+[Snowflakes *.*]
+DIR = var
+
+[Snowflakes *.cfreezer]
+DIR = conf
+path = []
+
