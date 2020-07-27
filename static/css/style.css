@@ -131,8 +131,21 @@ main .starter-block{
 
 
 .antarctica-logo {
-  background: #00c7be;/*00c7be 004fc5*/
+  background: #99FFCC;/*00c7be 004fc5*/
 }
+
+.antarclica-logo {
+  background: #e9ecef;/*00c7be 004fc5*/ /*e9ecef*/
+}
+
+.freezer-logo {
+  background: #CCFFFF;/*00c7be 004fc5*/
+}
+
+.penger-logo {
+  background: #fff3d9;/*00c7be 004fc5*/
+}
+
 
 main {
   padding-top: 20px;
