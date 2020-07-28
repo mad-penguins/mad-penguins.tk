@@ -1,0 +1,238 @@
+/*html {
+  height: 100%;
+}*/
+
+body {
+  
+  padding-top: 62px;
+  /*padding-bottom: 3rem;*/
+  color: #5a5a5a;
+  height: 100%;
+}
+
+.navbar {
+  background: #F97300
+}
+
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+
+.nav-link {
+  /*margin-left: 8px;*/
+  margin-right: 1em !important;
+}
+
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+ border-radius: 5px;
+}
+
+/*.navbar-collapse{
+ justify-content: flex-end;
+}*/
+
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.dropdown-menu a:hover {
+  background: #e5e5e5;
+}
+
+.dropdown-menu .no_logo{
+  text-indent:42px;
+}
+
+.dropdown-item img{
+  margin-right: 10px;
+}
+
+/*
+.header{
+ background-image: url('../img/mad.png');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}*/
+
+
+
+.starter-block {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+main .starter-block{
+  padding-top: 0px;
+}
+
+.head_pin {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 600px;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-6 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+.antarctica-logo {
+  background: #99FFCC;/*00c7be 004fc5*/
+}
+
+.antarclica-logo {
+  background: #e9ecef;/*00c7be 004fc5*/ /*e9ecef*/
+}
+
+.freezer-logo {
+  background: #CCFFFF;/*00c7be 004fc5*/
+}
+
+.penger-logo {
+  background: #fff3d9;/*00c7be 004fc5*/
+}
+
+
+main {
+  padding-top: 20px;
+}
+
+
+
+
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+@media (max-width: 396px) {
+  .navbar-brand span{
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  body {
+    padding-top: 78px;
+  }
+  /*.carousel-item {
+    height: 400px;
+  }*/
+}
+
+@media (max-width: 770px) {
+  /*.carousel-caption {
+    display: none;
+  }*/
+}
+
+/*@media (max-width: 600px) {
+  .bd-example {
+    display: none;
+  }
+}*/
+
+@media (max-width: 766px) {
+  body {
+    padding-top: 56px;
+  }
+  /*.carousel-item {
+    height: 300px;
+  }*/
+  .nav-link {
+    text-indent:6px;
+  }
+}
+
+@media (max-width: 320px) {
+  /*.carousel-item {
+    height: 200px;
+  }*/
+}
+
+
+footer .container-main {
+  /*border: 0 0 0 0px;*/
+}
+
+
+/*.starter-block img {
+  height: 20px;
+}*/
+
+/*.main {
+  background: #EAF2F5;
+}*/

@@ -1,49 +1,84 @@
-<header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <!-- Image and text -->
-        <!-- <nav class="navbar "> -->
-        <a class="navbar-brand" href="http://mad-penguins.tk/">
-            <img src="img/logo.png" width="50" height="30" class="d-inline-block align-top" alt="">
-            <span>Penguins of Madagascar</span>
-        </a>
-        <!-- </nav> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="http://mad-penguins.tk/">Home <span class="sr-only">(current)</span></a>
-                </li> -->
-                <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Products
+<nav class="navbar navbar-expand-lg sticky-top navbar-light " style="background-color: #ff9c45;">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <a class="navbar-brand" href="https://mad-penguins.tk">
+        <img src="img/logo.png" width="50" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        <span>Penguins of Madagascar</span>
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    <a class="dropdown-item" href="https://antarctica-server.tk" target="_blank">
+                        <img src="img/Antarctica/Antarctica_logo_64.png" class="rounded-circle" width="32" height="32">
+                        Antarctica
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="https://antarctica-server.tk"><img src="img/Antarctica/Antarctica_logo_64.png" class="rounded-circle" width="32" height="32">Antarctica</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://antarctica-server.tk"><img src="img/AntarCLIca/AntarCLIca_logo_64.png" class="rounded-circle" width="32" height="32">AntarCLIca</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://github.com/mad-penguins/Freezer"><img src="img/Freezer/Freezer_logo_64.png" class="rounded-circle" width="32" height="32">Freezer</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://github.com/mad-penguins/Penger"><img src="img/Penger/Penger_logo_64.png" class="rounded-circle" width="32" height="32">Penger</a><!-- no_logo -->
-                    </div>
-                    <!-- <a class="nav-link" href="#">Products</a> -->
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-            </ul>
-            <div class="form-inline my-2 my-lg-0">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/mad-penguins">
-                            <img src="img/GitHub-Mark-Light-64px.png" width="30" height="30" class="navbar-nav-svg">
-                        </a>
-                    </li>
-                </ul>
-                <a href="https://money.yandex.ru/to/410015281707280" target="_blank"><button type="button" class="btn btn-success">Donate</button></a>
-            </div>
-        </div>
-    </nav>
-</header>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="https://antarctica-server.tk" target="_blank">
+                        <img src="img/AntarCLIca/AntarCLIca_logo_64.png" class="rounded-circle" width="32" height="32">
+                        AntarCLIca
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="https://github.com/mad-penguins/Freezer" target="_blank">
+                        <img src="img/Freezer/Freezer_logo_64.png" class="rounded-circle" width="32" height="32">
+                        Freezer
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="https://github.com/mad-penguins/Penger" target="_blank">
+                        <img src="img/Penger/Penger_logo_64.png" class="rounded-circle" width="32" height="32">
+                        Penger
+                    </a><!-- no_logo -->
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    About
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/mad-penguins" target="_blank">
+                    <svg height="32px" width="32px" viewBox="0 0 16 16"  fill="currentColor">
+                        <title>GitHub</title>
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://money.yandex.ru/to/410015281707280" target="_blank">
+                    <svg width="32px" height="32px" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <title>Donate</title>
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+

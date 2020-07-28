@@ -15,9 +15,12 @@ DIR = snow
 bootstrap.scripts = bootstrap.scripts.html
 carousel = carousel.html
 footer = footer.html
+footer.html = footer.html.old
 head = head.html
 header = header.html
-main = main.html
+header.html = header.html.old
+index.main = index.main.html
+main.html = main.html.old
 
 [Snowflakes *.py]
 DIR = py
@@ -25,6 +28,7 @@ year = year.py
 
 [Snowflakes *.*]
 DIR = var
+name.home = name.home.txt
 
 [Snowflakes *.cfreezer]
 DIR = conf
